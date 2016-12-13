@@ -5,16 +5,39 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// Kreiranje skener objekta
+				// Kreiranje skener objekta
 				Scanner input = new Scanner(System.in);
 				
-				// Output prompt
+				
+				
+				// Ime
 				System.out.println("Unesite vase ime: ");
 				
-				// Izvrsavanje skenera i arhiviranje rezultata
 				String line = input.nextLine();
-				// int value = input.nextInt();
-				// int value = input.nextDouble();
+				
+				System.out.println("You entered: " + line);
+				
+				System.out.println("Unesite vase prezime: ");
+				
+				System.out.println("Unesite vasu godinu rodjenja: ");
+				
+				
+				System.out.println("You entered: " + line);
+				
+				
+				
+			
+				
+				// Izvrsavanje skenera i arhiviranje rezultata
+			
+				
+				
+				
+				
+				
+				
+				// Svaki skener i citac treba zatvoriti nakon upotrebe (dobra praksa)
+				input.close();
 				
 				
 	}
