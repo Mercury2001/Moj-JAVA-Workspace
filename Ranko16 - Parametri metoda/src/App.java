@@ -32,7 +32,7 @@ class Frog {
 		setColor(color);
 	}
 	public void makeSound(){
-		System.out.println("Ovo je" + this.name + "Kre, kre");
+		System.out.println("Ovo je  " + this.name + " Kre, kre");
 		}
 		
 	}
